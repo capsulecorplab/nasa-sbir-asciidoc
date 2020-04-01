@@ -1,0 +1,70 @@
+= NASA SBIR AsciiDoc =
+:asciidoctor-homepage: https://asciidoctor.org/[Asciidoctor]
+
+This repo contains asciidoc files for generating PDF documents for the https://sbir.nasa.gov/[NASA SBIR solicitations],
+based on the https://sbir.gsfc.nasa.gov/submissions/firm-templates[firm templates] provided by NASA's Goddard Space Flight Center,
+using {asciidoctor-homepage} - a static-site generator for the
+https://asciidoctor.org/docs/asciidoc-syntax-quick-reference[AsciiDoc]
+markup language.
+
+== Generating PDF's ==
+
+The following instructions are for installing {asciidoctor-homepage}
+and other required dependencies.
+
+=== Prerequisites ===
+
+- Ruby 2.4+ (2.4.5 recommended)
+
+https://github.com/rbenv/rbenv[rbenv] is the recommended Ruby version manager
+for installing Ruby / Gems.
+
+=== Installation/Setup ===
+
+Clone this repo, then change directory into the cloned repo:
+
+ git clone https://github.com/capsulecorplab/nasa-sbir-asciidoc.git
+ cd nasa-sbir-asciidoc/
+
+Install bundler, then bundle install dependencies:
+
+ gem install bundler:2.1.4
+ bundle install
+
+==== PlantUML plugin ===
+
+Asciidoctor provides support for diagramming tools, such as https://plantuml.com/[PlantUML].
+See https://asciidoctor.org/docs/asciidoctor-diagram/
+
+You will need the following requirements in order to use the PlantUML extension for Asciidoctor.
+
+- Graphviz (2.38.0+ recommended)
+- https://plantuml.com/download[Plantuml] (1.2020.2+ recommended)
+
+For Ubuntu/Debian, you will need to install
+https://launchpad.net/ubuntu/+source/graphviz/2.38.0-16ubuntu1[graphviz 2.38.0]
+from source:
+
+ wget https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/graphviz/2.38.0-16ubuntu1/graphviz_2.38.0.orig.tar.gz
+ tar -xvf graphviz_2.38.0.orig.tar.gz
+ cd ./graphviz_2.38.0.orig
+ ./configure
+ make
+ sudo make install
+
+Add and install `asciidoctor-diagram` to Gemfile.lock with bundler
+
+ bundle add asciidoctor-diagram
+ bundle install
+ 
+== CLI Usage ==
+
+The following will locally generate a pdf document for the sample technical proposal:
+
+ asciidoctor technical-proposal-sameple.adoc -r asciidoctor-pdf -b pdf -a pdf-theme=theme.yml
+
+== CLI Usage with PlantUML ==
+
+The following will locally generate a pdf document for the sample technical proposal, with plantuml extensions enabled:
+
+ asciidoctor technical-proposal-sameple.adoc -r asciidoctor-pdf -r asciidoctor-diagram -b pdf -a pdf-theme=theme.yml
