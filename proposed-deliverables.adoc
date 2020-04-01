@@ -1,0 +1,13 @@
+:title: Proposed Deliverables
+////
+This document is used for the Briefing Chart and Part 4 of the Technical Proposal
+////
+
+* *EHBs User Interface Tools.* These are software tools that facilitate the building of the EHBs user
+interface for different EHBs applications.
+* *EHBs Backend Tools.* These are software tools that facilitate the building of the EHBs database
+and database interfaces for different EHBs applications.
+* *EHBs Requirements Capture Tools.* These are software tools that facilitate the overall building
+of EHBs applications.
+* *EHBs Demonstration Tools.* These are software tools that facilitate the demonstration and/or
+marketing of EHBs.

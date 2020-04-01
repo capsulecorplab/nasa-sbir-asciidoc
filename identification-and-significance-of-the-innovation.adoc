@@ -1,0 +1,36 @@
+:title: Identification and Significance of the Innovation
+////
+This document is used for the "Identification and Significance of the Innovation" section of the Briefing chart (1100 characters and less than or equal to 15 lines)
+and part 2 of the Technical Proposal
+////
+////
+Succinctly describe:
+• The proposed innovation.
+• The relevance and significance of the proposed innovation to an interest, need or needs, within a
+subtopic described in section 9.
+• The proposed innovation relative to the state of the art.
+////
+The proposed innovations are as follows:
+
+1. Electronic Handbooks (EHBs) are Internet-based tools that support the paperless documentation and
+management of complex distributed processes (e.g., Grants/Contracts Management). Tools include user
+interface, backend, requirements capture, and demonstration software.
+2. Processes are represented as "Internet-based plays" where "actors" communicate thru the Internet.
+For each role, EHBs guide actors thru their parts.
+3. EHBs, like plays, are developed in six stages: Outline or Playwriting, Example or Rehearsal,
+Implementation or Staging, Utilization or Performance, Revision or New Production, and Cross-Subprocess or Cross-Play Analysis.
+
+The significance of the innovations is that EHBs will:
+
+1. facilitate the movement from paper processes to paperless processes,
+2. improve end users interactions within complex processes,
+3. foster process, system, and product improvements, and
+4. reduce costs in the overall administration of processes.
+
+No commercial process management system offers all of these facilities and a few systems support only
+a small fraction of the solution. These innovations will dramatically increase the productivity of
+organizations involved in managing complex distributed processes. In order to build a process
+management system which coordinates many participants and populates and locates information from
+multiple repositories, it is necessary to have a common, uniform methodology for capturing the
+requirements for the entire process. Otherwise the data and process becomes too fragmented, complex
+and costly to develop, enhance, and maintain.

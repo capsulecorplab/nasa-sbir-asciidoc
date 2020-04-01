@@ -1,0 +1,19 @@
+:title: Technical Objectives
+////
+This document is used for the "Technical Objectives & Proposed Deliverables" section of
+the Briefing Chart (1400 characters) and Part 3 of the Technical Proposal
+////
+
+1. Facilitate paperless documentation and management of complex distributed processes.
+2. Facilitate system development:
+* requirements capture,
+* system design,
+* implementation,
+* multi-developer coordination,
+* software distribution,
+* end-user learning,
+* system documentation,
+* system revisions, and
+* system reuse for similar processes.
+3. Facilitate integration of independently developed subsystems.
+4. Facilitate process and system improvement.
