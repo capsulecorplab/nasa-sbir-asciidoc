@@ -1,0 +1,11 @@
+:title: Potential Non-NASA Applications
+////
+This document is used for the Briefing Chart (400 characters) and Part 7 of the Technical Proposal
+////
+
+Some non-NASA Federal Government management applications of EHBs include: SBIR Contracts ,
+Grants , Contracts, Education Programs, Technologies, Datasets, Software, Documents, and Missions.
+Some education management applications include: Public School Students and University Students,
+Some private sector management applications include Automobile Sales and Service, Health Episodes,
+Grants and Projects, Publishing Projects, Legal Cases, Policies, Credit Cards, Travel, Loans, and
+Construction Projects

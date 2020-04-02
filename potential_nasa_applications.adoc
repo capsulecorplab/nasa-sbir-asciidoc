@@ -1,0 +1,7 @@
+:title: Potential NASA Applications
+////
+This document is used for the Briefing Chart (550 characters) and Part 7 of the Technical Proposal
+////
+
+Some NASA paperless documentation and management applications of EHBs include : SBIR Contracts ,
+Grants , Contracts, Education Programs, Technologies, Datasets, Software, Documents, and Missions .
