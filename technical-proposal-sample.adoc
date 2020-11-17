@@ -1,7 +1,7 @@
 :toc: macro
 :toc-title:
 :toclevels: 3
-:technical_proposal: true
+:technical-proposal: true
 :xrefstyle: short
 ////
 Technical Proposal Template
@@ -98,11 +98,11 @@ of the backend tools that are used to implement EHBs. The set of EHBs Backend To
 
 [#sample-user-ehb]
 .User EHB for firms that are submitting applications to the NASA SBIR program
-image::sample-user-EHB.png[sample user EHB, 371, align="center"]
+image::assets/sample-user-EHB.png[sample user EHB, 371, align="center"]
 
 [#ehb-system-architecture]
 .EHB system architecture
-image::EHB-system-architecture.png[EHB system architecture, 371, align="center"]
+image::assets/EHB-system-architecture.png[EHB system architecture, 371, align="center"]
 
 World Wide Web Servers are used to store and maintain all of the web pages used in the
 implementation of EHBs. These are used by the EHBs to transfer the subparts of the EHBs between the
@@ -231,15 +231,15 @@ followed by integration of backends.
 
 [#contract-admin-and-closeout-process-rct]
 .NASA SBIR Contract Administration and Closeout Process RCT.
-image::contract-admin-and-closeout-process-RCT.png[NASA SBIR Contract Administration and Closeout Process RCT, 371, align="center"]
+image::assets/contract-admin-and-closeout-process-RCT.png[NASA SBIR Contract Administration and Closeout Process RCT, 371, align="center"]
 
 [#development-matrix-rct]
 .NASA SBIR Development Matrix of RCTs.
-image::development-matrix-RCT.png[NASA SBIR Development Matrix of RCTs, 558, align="center"]
+image::assets/development-matrix-RCT.png[NASA SBIR Development Matrix of RCTs, 558, align="center"]
 
 [#hsra-ehb-demo]
 .Health Services Research Administration (HRSA) EHBs Demonstration.
-image::HSRA-EHB-demonstration.png[Health Services Research Administration (HRSA) EHBs Demonstration, 371, align="center"]
+image::assets/HSRA-EHB-demonstration.png[Health Services Research Administration (HRSA) EHBs Demonstration, 371, align="center"]
  
 ==== 4.4 Task by Labor Categories and Schedules ====
 
@@ -445,11 +445,11 @@ Coney Island, Inc.'s process management system.
 
 ==== Potential NASA Applications ====
 
-include::potential_nasa_applications.adoc[]
+include::potential-nasa-applications.adoc[]
 
 ==== Potential Non-NASA Applications ====
 
-include::potential_non_nasa_applications.adoc[]
+include::potential-non-nasa-applications.adoc[]
 
 === Part 8: Facilities/Equipment ===
 ////
